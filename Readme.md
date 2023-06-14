@@ -19,13 +19,13 @@
 
 ## MFCC 전처리 과정
 
-[!(https://github.com/bloodmage1/Multimodal_paper/mfcc_preprocessing.PNG)]
+[!(https://github.com/bloodmage1/Multimodal_paper/mfcc_preprocessing.png)]
 
 사람이 발성 시 몸의 구조 때문에 실제로 낸 소리에서 고주파 성분은 많이 줄어들게 되서 나온다고 한다. 그래서 <span style="color:skyblue">**먼저 줄어든 고주파 성분을 변조가 강하게 걸리도록 High-pass Filter를 적용해주는 과정이 포함**</span>된다.
 
 ## 샘플링과 윈도윙
 
-Pre-emphasis된 신호에 대해서 앞에서 언급했던 이유 때문에 신호를 20~40ms 단위의 프레임으로 분할한다. 여기서 프레임을 50% 겹치게 분할한다(프레임끼리 연속성을 만들어주기 위해).
+Pre-emphasis된 신호에 대해서 앞에서 언급했던 이유 때문에 신호를 20에서 40ms 단위의 프레임으로 분할한다. 여기서 프레임을 50% 겹치게 분할한다(프레임끼리 연속성을 만들어주기 위해).
 
 만약 프레임이 서로 뚝뚝 떨어지게 샘플링을 한다면, 프레임과 프레임의 접합 부분에서 순간 변화율이 무한대가 될 수 있기 때문이다.
 
