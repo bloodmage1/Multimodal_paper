@@ -27,3 +27,7 @@
 해당 코드에서는 Multimodal Compact Bilinear Pooling (줄여서 MCB)를 사용했다. 이 방법은 두 벡터의 외적을 계산하여 두 모달리티 간의 모든 가능한 상호작용을 포착한다. 하지만 외적은 계산적으로 **매우 비효율적**이므로,MCB는 이를 해결하기 위해 두 벡터의 외적을 근사하는 방법을 사용한다.
 
 이 방법은 두 벡터를 먼저 각각의 고차원 공간으로 매핑한 후, 이 **두 고차원 벡터의 내적을 계산**하여 원래의 외적을 근사한다.
+
+츨처: [https://nanum.etri.re.kr/share/kjnoh/KEMDy19?lang=ko_KR](https://dacon.io/forum/405915?dtype=recent)
+
+참고할만한 유튜브: [https://www.youtube.com/watch?v=PcU2oiPFDTE&t=1037s](https://www.youtube.com/watch?v=PcU2oiPFDTE&t=1037s)

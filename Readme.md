@@ -1,5 +1,7 @@
 # 비언어적 음성 데이터를 이용할 수 있을까?
 
+# 목차
+
 1. MFCC
    - MFCC 전처리 과정
    - 샘플링과 윈도윙
@@ -29,9 +31,9 @@ Pre-emphasis된 신호에 대해서 앞에서 언급했던 이유 때문에 신�
 
 만약 프레임이 서로 뚝뚝 떨어지게 샘플링을 한다면, 프레임과 프레임의 접합 부분에서 순간 변화율이 무한대가 될 수 있기 때문이다.
 
-그리고 이 프레임들에 대해 window를 각각 적용한다. 이때 <span style="color:skyblue">**hamming window를 적용**</span>한다.
+그리고 이 프레임들에 대해 window를 각각 적용한다. 이때 <span style="color:skyblue">**[hamming window](https://velog.io/@workhard/hanning-window%EB%9E%80)를 적용**</span>한다.
 
-# FFT
+# FFT(핵심)
 
 하지만 Mel Scale을 사용하지 않아도 될 상황이 존재한다.
 
@@ -43,7 +45,7 @@ Pre-emphasis된 신호에 대해서 앞에서 언급했던 이유 때문에 신�
 
 ## 데이터에 포함된 비언어적 표현
 
-데이터에 포함된 비언어적 표현은 다음과 같다.
+[데이터](https://nanum.etri.re.kr/share/kjnoh/KEMDy19?lang=ko_KR)에 포함된 비언어적 표현은 다음과 같다.
 
 - c/ : 휴지구간이 확보되지 않은 연속발성(0.3초 미만) 
 
