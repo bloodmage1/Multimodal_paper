@@ -12,9 +12,9 @@
 ## 트렌드
 
 - 현재 가장 직관적이고 의미있는 결과를 보이는 분야는 시각과 언어지능을 결합한 언어 시각 트랜스포머 연구가 대표적
-- ImageGPT: Open AI의 이미지 사전학습 모델
-- CLIP: 이미지와 언어를 결합
-- DALL-E: 텍스트로부터 이미지를 생성
+- [ImageGPT](https://openai.com/research/image-gpt): Open AI의 이미지 사전학습 모델
+- [CLIP](https://openai.com/research/clip): 이미지와 언어를 결합
+- [DALL-E](https://openai.com/dall-e-2): 텍스트로부터 이미지를 생성
 
 ## 문제점
 
